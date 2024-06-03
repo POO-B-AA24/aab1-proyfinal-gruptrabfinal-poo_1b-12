@@ -1,0 +1,24 @@
+Nombre: Nathan Isaac Moreno Cuenca
+Cédula: 1105576233
+Teléfono: 0994462273
+Correo: nathanmorenoc@gmal.com
+Carrera: Ciencias Quimicas
+-----------------------------
+Nombre: nathan isaac moreno cuenca
+Cédula: 1105576233
+Teléfono: 0994462273
+Correo: nathanmorenoc@gmail.com
+Carrera: Medicina
+-----------------------------
+Nombre: nathan moreno
+Cédula: 1105576233
+Teléfono: 0994462273
+Correo: nathanmorenoc@gmail.com
+Carrera: quimica
+-----------------------------
+Nombre: nathanmoreno
+Cédula: 1105576233
+Teléfono: 0994462273
+Correo: nathanmorenoc@gmail.com
+Carreras: analisi, , 
+-----------------------------
