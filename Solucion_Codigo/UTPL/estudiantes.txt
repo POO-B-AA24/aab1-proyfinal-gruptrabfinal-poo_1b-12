@@ -1,10 +1,3 @@
-Arianna,Pe;a,1105819161,0992552608,ariannacarolina12@gmail.com,Gastronomía,87.0
-emilio,pena,1111111,111111111,emiliojosepe@gmail.com, Computación,80.0
-emikilo,pena,11111111,11111111,emiliopena@gmail.com,Enfermería,120.0
-emilio,pena,1111111,5555555,emiliojosepe@gmail.com,Administración de Empresas,81.0
-em,pen,11111,5555556,empe@gmail.com,Nutrición y Dietética,85.0
-emlio,pena,155553,4456323,emilio@gmail.com, Química,106.0
-emilio,pena,5444625,196945,juan@gmail.com,Enfermería,111.0
-em,pena,6669998787,333377788,emilo@gmail.com,Finanzas,91.0
-dedo,juancho,666,8888,edojuanm@gmail.com,Administración de Empresas,90.0
-Emilio,Pena,1105819153,0981205444,emiliojosepe05@gmail.com, Artes Visuales,81.0
+nathan,moreno,1105576233,0994462273,nathanmorenoc@gmail.com,Enfermería,73.0
+nathan,moreno,1105576233,0994462273,nathanmorenoc@gmail.com,Enfermería,61.0
+nathan,moreno,1105576233,0994462273,nathanmorenoc,Enfermería,Fisioterapia,71.0

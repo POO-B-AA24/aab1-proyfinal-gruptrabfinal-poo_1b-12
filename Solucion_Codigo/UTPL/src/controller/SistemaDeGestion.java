@@ -61,7 +61,6 @@ public class SistemaDeGestion {
             }
         }
     }
-
     public static void procesoMatriculacion() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("\n-------------------------");

@@ -3,11 +3,13 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/emili/OneDrive/Escritorio/UTPL/src/controller/SistemaDeGestion.java</file>
-            <file>file:/C:/Users/emili/OneDrive/Escritorio/UTPL/src/view/UTPL.java</file>
-            <file>file:/C:/Users/emili/OneDrive/Escritorio/UTPL/src/controller/ExamenesAdmisiones.java</file>
-            <file>file:/C:/Users/emili/OneDrive/Escritorio/UTPL/src/controller/PanelAdministrativo.java</file>
-            <file>file:/C:/Users/emili/OneDrive/Escritorio/UTPL/src/controller/MenuEstudiante.java</file>
+            <file>file:/C:/Users/PCENTER/Desktop/segundo%20bimestre/UTPL/src/controller/MenuEstudiante.java</file>
+            <file>file:/C:/Users/PCENTER/Desktop/segundo%20bimestre/UTPL/src/controller/PanelAdministrativo.java</file>
+            <file>file:/C:/Users/PCENTER/Desktop/segundo%20bimestre/UTPL/src/model/EstudianteDAO.java</file>
+            <file>file:/C:/Users/PCENTER/Desktop/segundo%20bimestre/UTPL/src/controller/ExamenesAdmisiones.java</file>
+            <file>file:/C:/Users/PCENTER/Desktop/segundo%20bimestre/UTPL/src/model/Estudiante.java</file>
+            <file>file:/C:/Users/PCENTER/Desktop/segundo%20bimestre/UTPL/src/view/UTPL.java</file>
+            <file>file:/C:/Users/PCENTER/Desktop/segundo%20bimestre/UTPL/src/controller/SistemaDeGestion.java</file>
         </group>
     </open-files>
 </project-private>

@@ -1,7 +1,7 @@
 package controller;
 
 import model.Estudiante;
-
+import controller.SistemaDeGestion;
 
 import java.util.Scanner;
 
@@ -10,11 +10,14 @@ public class MenuEstudiante {
         Scanner scanner = new Scanner(System.in);
         int opcionSecundaria;
         do {
-            System.out.println("\n--- Menú de Estudiante ---");
-            System.out.println("1) Información de Inscripción");
-            System.out.println("2) Resultado del Examen");
-            System.out.println("3) Asignación de Cupo");
-            System.out.println("4) Salir del sistema ");
+            System.out.println("\n---------------------------------------");
+            System.out.println("|             Menú de Estudiante        |");
+            System.out.println("\n---------------------------------------");
+            System.out.println("|1) Información de Inscripción          |");
+            System.out.println("|2) Resultado del Examen                |");
+            System.out.println("|3) Asignación de Cupo                  |");
+            System.out.println("|4) Salir del sistema                   |");
+            System.out.println("\n---------------------------------------");
             System.out.print("Ingrese el número de su elección: ");
 
             opcionSecundaria = scanner.nextInt();

@@ -13,13 +13,11 @@ public class ExamenesAdmisiones {
 
     public static void asignarNotasAleatorias() {
         List<Estudiante> estudiantes = estudianteDAO.obtenerEstudiantes();
-        Random rand = new Random();
         for (Estudiante estudiante : estudiantes) {
-            int nota = rand.nextInt(100) + 1;
+            double nota = estudiante.getNota(); // Obtener la nota del estudiante
             estudiante.setNota(nota); // Agregar la nota al estudiante
         }
     }
-
     public static void mostrarResultadosExamen() {
         List<Estudiante> estudiantes = estudianteDAO.obtenerEstudiantes();
         System.out.println("Resultados del Examen de Admisión:");
@@ -38,15 +36,12 @@ public class ExamenesAdmisiones {
         for (Estudiante estudiante : estudiantes) {
             todasCarreras.addAll(estudiante.getCarreras());
         }
-
         if (todasCarreras.isEmpty()) {
             System.out.println("No hay carreras seleccionadas.");
             return;
         }
-
         int[] demanda = new int[todasCarreras.size()];
         String[] carreras = todasCarreras.toArray(new String[0]);
-
         for (Estudiante estudiante : estudiantes) {
             for (String carrera : estudiante.getCarreras()) {
                 for (int i = 0; i < carreras.length; i++) {
@@ -56,12 +51,10 @@ public class ExamenesAdmisiones {
                 }
             }
         }
-
         int maxDemanda = Integer.MIN_VALUE;
         int minDemanda = Integer.MAX_VALUE;
         String carreraMaxDemanda = "";
         String carreraMinDemanda = "";
-
         for (int i = 0; i < demanda.length; i++) {
             if (demanda[i] > maxDemanda) {
                 maxDemanda = demanda[i];
@@ -72,7 +65,6 @@ public class ExamenesAdmisiones {
                 carreraMinDemanda = carreras[i];
             }
         }
-
         System.out.println("Carrera con mayor demanda: " + carreraMaxDemanda + " (" + maxDemanda + " estudiantes)");
         System.out.println("Carrera con menor demanda: " + carreraMinDemanda + " (" + minDemanda + " estudiantes)");
     }

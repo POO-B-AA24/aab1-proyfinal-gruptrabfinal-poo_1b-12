@@ -13,11 +13,13 @@ public class UTPL {
         int opcionSecundaria;
         do {
             System.out.println("\n------------------------------");
-            System.out.println("Bienvenidos a Admisiones UTPL");
-            System.out.println("1) Nuevos Estudiantes");
-            System.out.println("2) Personal administrativo");
-            System.out.println("3) Iniciar sesión estudiantes");
-            System.out.println("4) Salir");
+            System.out.println("|Bienvenidos a Admisiones UTPL|");
+            System.out.println("\n----------------------------|");
+            System.out.println("|1) Nuevos Estudiantes        |");
+            System.out.println("|2) Personal administrativo   |");
+            System.out.println("|3) Iniciar sesión estudiantes|");
+            System.out.println("|4) Salir                     |");
+            System.out.println("\n------------------------------");
             System.out.print("Ingrese el número de su elección: ");
 
             opcionPrincipal = scanner.nextInt();
@@ -25,12 +27,15 @@ public class UTPL {
             switch (opcionPrincipal) {
                 case 1:
                     do {
-                        System.out.println("\n--- Menú de Estudiantes ---");
-                        System.out.println("1) Catálogo de las carreras disponibles");
-                        System.out.println("2) Proceso de matriculación");
-                        System.out.println("3) Fechas del examen de admisión");
-                        System.out.println("4) Información del postulante");
-                        System.out.println("5) Volver al menú principal");
+                        System.out.println("\n---------------------------------------");
+                        System.out.println("|         Panel Estudiantes             |");
+                        System.out.println("\n---------------------------------------");
+                        System.out.println("|1) Catálogo de las carreras disponibles|");
+                        System.out.println("|2) Proceso de matriculación            |");
+                        System.out.println("|3) Fechas del examen de admisión       |");
+                        System.out.println("|4) Información del postulante          |");
+                        System.out.println("|5) Volver al menú principal            |");
+                        System.out.println("\n---------------------------------------");
                         System.out.print("Ingrese el número de su elección: ");
 
                         opcionSecundaria = scanner.nextInt();
@@ -59,11 +64,14 @@ public class UTPL {
                     break;
                 case 2:
                     do {
-                        System.out.println("\n--- Menú de Personal Administrativo ---");
-                        System.out.println("1) Inscripciones de los estudiantes");
-                        System.out.println("2) Resultado del examen de admisión");
-                        System.out.println("3) Carreras con mayor demanda y menor demanda");
-                        System.out.println("4) Salir");
+                        System.out.println("\n----------------------------------------------");
+                        System.out.println("|   Panel  Administrativo                      |");
+                        System.out.println("\n----------------------------------------------");
+                        System.out.println("|1) Inscripciones de los estudiantes           |");
+                        System.out.println("|2) Resultado del examen de admisión           |");
+                        System.out.println("|3) Carreras con mayor demanda y menor demanda |");
+                        System.out.println("|4) Salir                                      |");
+                        System.out.println("\n----------------------------------------------");
                         System.out.print("Ingrese el número de su elección: ");
 
                         opcionSecundaria = scanner.nextInt();

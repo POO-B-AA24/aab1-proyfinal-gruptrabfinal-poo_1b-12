@@ -1,0 +1,79 @@
+@startuml
+
+class Estudiante {
+    -nombre: String
+    -apellido: String
+    -cedula: String
+    -telefono: String
+    -correo: String
+    -correoInstitucional: String
+    -contrasena: String
+    -carreras: List<String>
+    -cupo: boolean
+    -discapacidad: boolean
+    -abanderado: boolean
+    -nota: double
+    +Estudiante(nombre: String, apellido: String, cedula: String, telefono: String, correo: String, carreras: List<String>, nota: double)
+    +getNombre(): String
+    +setNombre(nombre: String): void
+    +getApellido(): String
+    +setApellido(apellido: String): void
+    +getCedula(): String
+    +setCedula(cedula: String): void
+    +getTelefono(): String
+    +setTelefono(telefono: String): void
+    +getCorreo(): String
+    +setCorreo(correo: String): void
+    +getCorreoInstitucional(): String
+    +setCorreoInstitucional(correoInstitucional: String): void
+    +getContrasena(): String
+    +setContrasena(contrasena: String): void
+    +getCarreras(): List<String>
+    +setCarreras(carreras: List<String>): void
+    +isCupo(): boolean
+    +setCupo(cupo: boolean): void
+    +isDiscapacidad(): boolean
+    +setDiscapacidad(discapacidad: boolean): void
+    +isAbanderado(): boolean
+    +setAbanderado(abanderado: boolean): void
+    +getNota(): double
+    +setNota(nota: double): void
+}
+
+class EstudianteDAO {
+    -FILE_NAME: String
+    +agregarEstudiante(estudiante: Estudiante): void
+    +obtenerEstudiantes(): List<Estudiante>
+    +guardarEstudiantes(estudiantes: List<Estudiante>): void
+    +iniciarSesion(correoInstitucional: String, contrasena: String): Estudiante
+    +cargarEstudiantes(): void
+}
+
+class MenuEstudiante {
+    +mostrarMenuEstudiante(estudiante: Estudiante): void
+}
+
+class ExamenesAdmisiones {
+    -estudianteDAO: EstudianteDAO
+    +asignarNotasAleatorias(): void
+    +mostrarResultadosExamen(): void
+    +mostrarDemandaCarreras(): void
+    +asignarNotaAleatoria(): int
+    +mostrarResultadoExamen(): void
+    +asignacionCupo(): void
+}
+
+class PanelAdministrativo {
+    -estudianteDAO: EstudianteDAO
+    +mostrarPostulantes(): void
+    +cargarPostulantesDesdeArchivo(): void
+    +mostrarResultadosExamen(): void
+    +mostrarDemandaCarreras(): void
+}
+
+EstudianteDAO --> Estudiante : <<uses>>
+MenuEstudiante --> Estudiante : <<uses>>
+ExamenesAdmisiones --> EstudianteDAO : <<uses>>
+PanelAdministrativo --> EstudianteDAO : <<uses>>
+
+@enduml
